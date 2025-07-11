@@ -6,6 +6,21 @@ body{
     
 }
 
+.container{
+    width: 90%;
+    margin: auto;
+
+
+}
+
+section{
+    margin: 50px 0px;
+}
+
+img{
+    width: 100%;
+}
+
 header{
     background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
@@ -72,4 +87,47 @@ padding: 10px 20px;
 .banner button:hover{
 background-color: rgba(127, 255, 212, 0.466);
 color: black;
+}
+
+/* hero section */
+
+.event{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.event-box {
+    width: 50%;
+    margin: 20px ;
+}
+
+.event-box h2{
+    font-size: 30px;
+    margin: 10px 20px;
+}
+ .event-box p{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.301);
+ }
+
+ .event-box button{
+ background-color: cadetblue;
+letter-spacing: 2px;
+border-radius: 30px;
+color: blanchedalmond;
+transition: all 0.3s;
+padding: 10px 20px;
+
+ }
+.event-box button:hover{
+    background-color: rgba(127, 255, 212, 0.466);
+    color: black;
+}
+
+.event-box img{
+    height: 350px;
+    object-fit: cover;
+    border-radius:10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.24);
+    
 }
