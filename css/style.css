@@ -198,3 +198,52 @@ color: rgba(0, 0, 255, 0.418);
     margin: 5px 10px;
     
 }
+
+/* form section */
+
+.contain{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    background-color: rgba(169, 169, 169, 0.644);
+    padding: 10px 30px;
+    border-radius: 10px;
+    justify-content: space-between;
+    gap: 20;
+    }
+    
+.contain h1{
+    font-size: 70px;
+    font-weight: 800;
+    margin-right: 30px;
+    
+}
+
+.contain form{
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+form input{
+    margin: 5px;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+ form textarea{
+    border-radius: 10px;
+ }
+ form button{
+background-color: cadetblue;
+letter-spacing: 2px;
+border-radius: 10px;
+color: blanchedalmond;
+transition: all 0.3s;
+padding: 10px 90px;
+margin-top: 5px;
+ }
+
+ form button:hover{
+    background-color: rgba(127, 255, 212, 0.466);
+    color: black;
+ }
