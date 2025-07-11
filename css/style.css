@@ -1,0 +1,75 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: rgba(0, 0, 0, 0.548);
+    
+    }
+
+    nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav h3{
+font-size: 50px;
+font-weight: 700;
+margin-left: 10px;
+
+}
+nav button{
+background-color: cadetblue;
+letter-spacing: 2px;
+border-radius: 30px;
+color: blanchedalmond;
+transition: all 0.3s;
+padding: 10px 20px;
+margin-top: 0px;
+}
+nav button:hover{
+background-color: rgba(127, 255, 212, 0.466);
+color: black;
+}
+
+/* banner section */
+.banner {
+    text-align: center;
+    padding: 100px 0px 150px;
+}
+.banner h2{
+    font-size: 50px;
+    font-weight: 700px;
+    color: rgba(0, 0, 0, 0.274);
+}
+
+
+.banner h3{
+    font-style: italic;
+    font-size: 30px;
+
+}
+
+.banner button{
+    background-color: cadetblue;
+letter-spacing: 2px;
+border-radius: 30px;
+color: blanchedalmond;
+transition: all 0.3s;
+padding: 10px 20px;
+}
+
+.banner button:hover{
+background-color: rgba(127, 255, 212, 0.466);
+color: black;
+}
