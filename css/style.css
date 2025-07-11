@@ -247,3 +247,29 @@ margin-top: 5px;
     background-color: rgba(127, 255, 212, 0.466);
     color: black;
  }
+
+ /* footer section */
+
+.footer{
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.footer h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: black;
+}
+.footer p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(0, 0, 255, 0.76);
+    margin: 10px 10px 10px 10px;
+}
