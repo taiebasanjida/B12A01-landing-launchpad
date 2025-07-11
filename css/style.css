@@ -65,7 +65,7 @@ color: black;
 .banner h2{
     font-size: 50px;
     font-weight: 700px;
-    color: rgba(0, 0, 0, 0.274);
+    color: rgba(0, 0, 0, 0.582);
 }
 
 
@@ -107,7 +107,7 @@ color: black;
 }
  .event-box p{
     font-size: 25px;
-    color: rgba(0, 0, 0, 0.301);
+    color: rgba(0, 0, 0, 0.527);
  }
 
  .event-box button{
@@ -154,3 +154,47 @@ color: rgba(0, 0, 255, 0.418);
     text-align: center;
     font-size: 20px;
  }
+
+ /* card section */
+
+ .wraper{
+    text-align: center;
+ }
+.wraper-one{
+    
+    display: flex;
+    margin: auto;
+    width: 80%;
+    justify-content:space-around;
+    padding: 10px 30px;
+    border-radius:10px;
+    background-color: rgba(95, 158, 160, 0.315);
+   
+}
+
+.icon{
+    display: flex;
+    padding: 5px;
+     
+    
+}
+.icon img{
+    width: 30px;
+    border-radius: 50%;
+}
+
+.wraper-two img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.wraper-two{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.title{
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.178);
+    margin: 5px 10px;
+    
+}
